@@ -150,7 +150,7 @@ main {
   align-items: center;
   gap: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .nav-link ul {
     display: none;
   }
@@ -255,7 +255,7 @@ main {
   padding: 0 10%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .section-top > div {
     flex-direction: column;
     padding: 0 5%;
@@ -311,7 +311,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
   gap: 20px;
   margin: 40px 0;
 }
@@ -375,7 +374,7 @@ h3 {
   color: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 860px) {
   .about > div {
     flex-direction: column;
     padding: 0 5%;
@@ -390,7 +389,7 @@ h3 {
 }
 
 .teams {
-  padding: 0 10%;
+  padding: 0 5%;
   margin: 5% 0;
 }
 
@@ -423,6 +422,9 @@ h3 {
   padding: 0;
   gap: 10px;
 }
+.perone > img {
+  max-width: 100%;
+}
 .perone > ul > li {
   background-color: #222222;
   border-radius: 50%;
@@ -453,7 +455,7 @@ h3 {
   margin: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 860px) {
   .teams {
     padding: 0 5%;
   }
@@ -553,7 +555,7 @@ h3 {
   position: relative;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .header {
     background-image: url('../images/mainimgmobile.png');
   }
